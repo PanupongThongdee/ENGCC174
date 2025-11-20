@@ -11,7 +11,7 @@ public class Lab1 { // ห้องขนาดใหญ่
     int n1 =num1.nextInt();//นำค่าจากแป้นพิมพ์ มาใส่ในตัวแปร n1
     System.out.print("Enter num2 : "); 
     int n2 =num2.nextInt();//นำค่าจากแป้นพิมพ์ มาใส่ในตัวแปร n2
-
-    System.out.println("Answer = "+n1+n2);//แสดงผลลัพธ์
+    System.out.print("Answer =");
+    System.out.print(n1+n2);//แสดงผลลัพธ์
   }
 }
