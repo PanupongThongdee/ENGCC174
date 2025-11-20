@@ -1,6 +1,6 @@
 import java.util.Scanner; // นำเข้าคำสั่งScanner
 
-public class Lab1 { // ห้องขนาดใหญ่
+public class Lab101 { // ห้องขนาดใหญ่
   public static void main(String[] args) { // main 
 
     System.out.println("Enter is sum Number :");
