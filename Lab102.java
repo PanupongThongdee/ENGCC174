@@ -7,10 +7,10 @@ public class Lab102 {
     Scanner Length =new Scanner(System.in);//รับค่าจากแป้นพิมพ์
     Scanner Height =new Scanner(System.in);//รับค่าจากแป้นพิมพ์
 
-    System.out.print("Enter num1 : "); 
-    double L1 =Length.nextDouble();//นำค่าจากแป้นพิมพ์ มาใส่ในตัวแปร n1
-    System.out.print("Enter num2 : "); 
-    double H1 =Height.nextDouble();//นำค่าจากแป้นพิมพ์ มาใส่ในตัวแปร n2
+    System.out.print("Enter Length : "); 
+    double L1 =Length.nextDouble();//นำค่า Length จากแป้นพิมพ์ มาใส่ในตัวแปร L1
+    System.out.print("Enter Height : "); 
+    double H1 =Height.nextDouble();//นำค่า Height จากแป้นพิมพ์ มาใส่ในตัวแปร H1
     System.out.print("Answer =");
     System.out.print(L1*H1);//แสดงผลลัพธ์
   }
