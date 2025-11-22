@@ -2,19 +2,20 @@ import java.util.Scanner ;//เรียกใช้คำสั่ง Scanner
 
 public class lab107 {
 
-    public static void main(String[] java){ //main
-        Scanner entenNumber =new Scanner(System.in);//สร้างตัวแปร  entenNumber ไว้เก็บค่าจากคีย์บอร์ด
-        System.out.print("Enter Number for sum number: "); 
-        int number =entenNumber.nextInt();//สร้างตัวแปร number ที่เป็นประเภท int ไว้เก็บค่าจาก entenNumber ที่รับมาจากแป้นพิมพ์
-        int i=0 ;//i = 0 เพราะเอาไว้รวมผลลัพธ์ทั้งหมด
+    public static void main(String[] java){ 
+        Scanner entenNumber =new Scanner(System.in);
 
-        for(int num = 1 ; num<=number ; num++ ){  //loopตาม ตัวเลขตามnumber ที่่กรอกมาเพื่อนำตัวเลขมารวมกัน
+        System.out.print("Enter Number for sum number: "); 
+        int number =entenNumber.nextInt();
+
+        int i=0 ;
+        
+        for(int num = 1 ; num<=number ; num++ ){ 
             System.out.print("Enter Number : ");
-            int sum =entenNumber.nextInt();//กรอกตัวเลขที่ต้องการบวกกัน
-            i+=sum; //บวกเรื่อยๆจนกว่าจะสิ้นสุดloop
-             
+            int sum =entenNumber.nextInt();
+            i+=sum; 
         }
-        System.out.println("Answer = "+i);//แสดงค่าหลังจากออกloop
+        System.out.println("Answer = "+i);
     
 
 
