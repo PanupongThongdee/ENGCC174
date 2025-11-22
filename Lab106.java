@@ -1,18 +1,18 @@
-    import java.util.Scanner ;//เรียกใช้คำสั่ง Scanner
+    import java.util.Scanner ;
 
     public class Lab106 {
 
-        public static void main(String[] text){ //main box
+        public static void main(String[] text){ 
 
-            Scanner numberMultiplication = new Scanner(System.in); //สร้างตัวแปร numberMultiplication ไว้เก็บค่าจากคีย์บอร์ด
+            Scanner numberMultiplication = new Scanner(System.in); 
 
             System.out.print("Enter Number of multiplication table :");
 
-            int num = numberMultiplication.nextInt();//สร้างตัวแปร num ที่เป็นประเภท int ไว้เก็บค่าจาก numberMultiplication ที่รับมาจากแป้นพิมพ์
+            int num = numberMultiplication.nextInt();
 
-            for(int fristLoop = 1 ; fristLoop <=12 ; fristLoop++){ //forLoop 
+            for(int fristLoop = 1 ; fristLoop <=12 ; fristLoop++){ 
 
-                System.out.printf("%d * %d = %d\n",num ,fristLoop,(num*fristLoop));//แสดงค่าคำตอบ
+            System.out.printf("%d * %d = %d\n",num ,fristLoop,(num*fristLoop));
                     
     }
 }

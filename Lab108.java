@@ -10,7 +10,8 @@ public class Lab108 {
       arryNumber[i] =enterNumber.nextInt(); 
         
     }
-    int max = 0;
+    int max;
+    max = 0;
     for(int i = 0 ;i < number ; i++){
        if(arryNumber[i] > max){
 
