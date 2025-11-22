@@ -29,13 +29,4 @@ public static int sumArray(int [] array){
     return sum ;
 }
 
-
-
-
-
-
-
-    
-    
-
 }
