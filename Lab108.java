@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Lab108 {
     public static void main(String[] nigger){
-       Scanner enterNumber =new Scanner(System.in); 
+       Scanner input =new Scanner(System.in); 
        System.out.print("Enter Number :");
-       int number=enterNumber.nextInt();
+       int number=input.nextInt();
        int[] arryNumber = new int[number];
        for(int i = 0 ;i < number ;i++ ){ 
-        arryNumber[i] =enterNumber.nextInt(); 
+        arryNumber[i] =input.nextInt(); 
         
     }
         int max = 0;
