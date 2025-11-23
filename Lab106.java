@@ -11,5 +11,6 @@
                  System.out.printf("%d * %d = %d\n",num ,i,(num*i));
                     
     }
+    mul.close();
 }
 }
