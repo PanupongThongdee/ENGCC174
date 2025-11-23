@@ -12,5 +12,6 @@ public class Lab103 {
       else {
          System.out.println("Even");
       }
+      number.close();
     }
 }
