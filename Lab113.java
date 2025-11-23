@@ -13,7 +13,6 @@ public class Lab113 {
             for(int j = 0 ; j < C ; j++){
              array[i][j]=input.nextInt();
             }
-           
         }
          int coutNumber = 0 ;
 
