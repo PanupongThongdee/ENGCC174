@@ -1,25 +1,25 @@
-import java.util.Scanner; //เรียกใช้คำสั่ง Scanner
+import java.util.Scanner; 
 
 public class Lab104 {
-   public static void main(String[] text){ // main box
-     Scanner sc = new Scanner(System.in);  //สร้างตัวแปร sc ไว้เก็บค่าจากคีย์บอร์ด
+   public static void main(String[] text){
+     Scanner value = new Scanner(System.in); 
      System.out.print("Enter Score :");
-     int Score=sc.nextInt(); // ตัวแปรScore ที่เก็บค่าจาก sc ที่รับมาจากแป้นพิมพ์
+     int Score=value.nextInt();
 
-     if(Score >= 80 ){//ถ้ามากกว่า 80 คะแนน ได้ A
+     if(Score >= 80 ){
       System.out.println("A");
      }
-     else if( Score >=70 ){//ถ้ามากกว่า 70 คะแนน ได้ B
+     else if( Score >=70 ){
       System.out.println("B");
      }
-     else if(Score>=60 ){//ถ้ามากกว่า 60 คะแนน ได้ C
+     else if(Score>=60 ){
        System.out.println("C");
    }
-   else if(Score>=50 ){//ถ้ามากกว่า 50 คะแนน ได้ D
+     else if(Score>=50 ){
        System.out.println("D");
    }
-   else {//ถ้าต่ำกว่า 50 คะแนน ได้ F
-    System.out.println("F");
+     else {
+       System.out.println("F");
    }
    }
 } 
