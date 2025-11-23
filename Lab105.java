@@ -22,7 +22,7 @@ import java.util.Scanner;
           System.out.println("Invalid Menu");
        }
 
-
+       input.close();
     }
     
 }
