@@ -10,7 +10,7 @@ public class Lab109 {
 
          for(int i = 0 ; i < N ; i++){
              index[i] = enterNum.nextDouble();
-            sum += index[i];
+             sum += index[i];
          }
          
          System.out.println(sum/N);
