@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Lab104 {
    public static void main(String[] text){
      Scanner value = new Scanner(System.in); 
-     System.out.print("Enter Score :");
+     System.out.print("Enter Score (0-100) :");
      int Score=value.nextInt();
 
      if(Score >= 80 ){
@@ -21,5 +21,7 @@ public class Lab104 {
      else {
        System.out.println("F");
    }
+   value.close();
    }
+   
 } 
