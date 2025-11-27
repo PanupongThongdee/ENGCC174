@@ -34,6 +34,7 @@ public class lab201 {
        Student value = new Student (id, name);
 
        value.showValue(id, name);
+         input.close();
 
     }
 }
