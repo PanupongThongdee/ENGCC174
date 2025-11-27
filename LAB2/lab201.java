@@ -14,7 +14,7 @@ public class lab201 {
        this.studentName = name;
    
     }
-    public void Displayinfo() {
+    public void showdata() {
 
         System.out.println("------------------------------");
          System.out.println("ID : "+ this.studentId);
@@ -33,7 +33,7 @@ public class lab201 {
 
        Student value = new Student (id, name);
 
-         value.Displayinfo();
+         value.showdata();
          input.close();
 
     }
