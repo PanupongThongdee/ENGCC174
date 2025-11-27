@@ -1,7 +1,7 @@
 package LAB2;
 import java.util.Scanner;
 
-public class lab201 {
+public class lab202 {
 
 
     public static class Student
