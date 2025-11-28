@@ -33,14 +33,14 @@ class Student {
             this.point = p;
             this.grade = g;
         }
-        public double calculateAverage(int point , int grade){
+        public double calculateAverage(){
                 double average = (point + grade) / 2.0;
                 return average;
             }
         public void display (){
             System.out.println("name :" + name);
-            System.out.println("midTermScore :" + calculateAverage(point, grade));
-            if(calculateAverage(point, grade) >= 50){
+            System.out.println("midTermScore :" + calculateAverage());
+            if(calculateAverage() >= 50){
                 System.out.println("Status: Pass");
             }
             else{
