@@ -5,6 +5,7 @@ public class lab210 {
         System.out.print("Enter sum items: ");
         int sumItems = input.nextInt();
         ShoppingCart cart = new ShoppingCart();
+        
         for(int i = 0; i < sumItems; i++){
             System.out.print("Product " + (i + 1) + ": ");
             String name = input.next();
