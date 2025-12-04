@@ -4,15 +4,18 @@ import java.util.Scanner;
 public class Lab308 {
   public static void main(String[] bad){
     Scanner input = new Scanner(System.in);
+
     System.out.print("name Product : ");
     String nameProduct = input.nextLine();
+
     System.out.print("enter getStork : ");
     int getStork = input.nextInt();
+
     InventoryItem InventoryItem = new InventoryItem(nameProduct,getStork);
     System.out.print("Enter round");
+
     int N = input.nextInt();
    
-
     for(int i = 0 ; i< N ; i++){
         input.nextLine();
          System.out.print("Enter Add or Sell :");
@@ -22,8 +25,7 @@ public class Lab308 {
             int number = input.nextInt();
 
             InventoryItem.addStock(number);
-            
-            
+              
          }
          else if(data.equalsIgnoreCase("SELL") ){
             int number = input.nextInt();
