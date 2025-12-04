@@ -38,7 +38,7 @@ class BankAccount{
     }
     public void deposit(double amount){
         if(amount > 0){
-             balance += amount ;
+             this.balance += amount ;
             System.out.println("Deposit successful.");
         }
         else if (amount <= 0 ){
@@ -47,7 +47,7 @@ class BankAccount{
     }
     public void withdraw(double amount){
         if(amount <= balance){
-            balance-= amount ;
+            this.balance-= amount ;
             System.out.println("Withdrawal successful.");
         }
         else if(amount > balance){
