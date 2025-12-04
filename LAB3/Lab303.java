@@ -3,14 +3,17 @@ import java.util.Scanner ;
 public class Lab303 {
     public static void main(String[] nigga){
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter password : ");
         String password = input.nextLine();
+
         System.out.print("Enter New password : ");
         String newpass = input.nextLine ();
 
         User1 dataUser = new User1 (password);
         dataUser.setPassword(newpass);
         System.out.println(dataUser.getPassword());
+        
         input.close();
 
     }
