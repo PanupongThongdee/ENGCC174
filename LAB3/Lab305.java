@@ -12,6 +12,7 @@ public class Lab305 {
         data.disconnect();
         data.disconnect();
         System.out.println(data.isConnected());
+        input.close();
         
     }
 }
