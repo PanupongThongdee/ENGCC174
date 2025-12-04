@@ -5,6 +5,7 @@ public class Lab304 {
         Scanner  input = new Scanner (System.in);
         System.out.print("Enter N : ");
         int num = input.nextInt();
+        
         for(int i = 0 ; i < num ; i ++){
             System.out.print("Enter Data : ");
             String data = input.next();
