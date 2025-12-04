@@ -17,9 +17,11 @@ public class Lab304 {
 class Product{
     private String name ;
     private static int productCount = 0 ;
-    Product(String n){
-        this.name = n;
-        productCount++;
+
+         Product(String n){
+             this.name = n;
+             productCount ++;
+
     }
     public String getName(){
         return name ;
