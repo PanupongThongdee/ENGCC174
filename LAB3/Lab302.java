@@ -13,6 +13,8 @@ public class Lab302 {
         Player.setScore(num2);
         System.out.println(Player.getScore());
 
+        input.close();
+
   
     }
 }
