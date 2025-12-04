@@ -18,14 +18,14 @@ public class Lab308 {
          System.out.print("Enter Add or Sell :");
          String data = input.nextLine();
 
-         if(data.equals("ADD") ){
+         if(data.equalsIgnoreCase("ADD") ){
             int number = input.nextInt();
 
             InventoryItem.addStock(number);
             
             
          }
-         else if(data.equals("SELL") ){
+         else if(data.equalsIgnoreCase("SELL") ){
             int number = input.nextInt();
             InventoryItem.sellStock(number);
          }
