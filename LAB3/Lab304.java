@@ -11,6 +11,7 @@ public class Lab304 {
             Product product = new Product(data);
         }
         System.out.println(Product.getProductCount());
+        input.close();
     }
 }
 class Product{
