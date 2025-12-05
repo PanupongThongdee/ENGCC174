@@ -1,8 +1,9 @@
 package ENGCC174.LAB3;
 import java.util.Scanner ;
-public class Lab310 {
+public class Lab309 {
     public static void main(String[] java){
         Scanner data = new Scanner(System.in);
+        
         System.out.print("Enter minLendth1 : ");
         int minLendth1 = data.nextInt();
         data.nextLine();
@@ -25,6 +26,8 @@ public class Lab310 {
         System.out.print("Enter user2_newPass : ");
         String user2_newPass = data.nextLine();
 
+        System.out.println("==============================");
+
         User.setMinLength(minLendth1);
         User user1 = new User(user1_name9 , user1_pass9);
         User user2 = new User(user2_name9 , user2_pass9);
@@ -46,16 +49,16 @@ class User{
 
    
     public User(String username, String password){
-
-        if(password == null || password.isEmpty()){
+        if(username.isEmpty()|| password.isEmpty()){
             this.password9 = "invalid" ;
             System.out.println("Created failed" );
-         }
+        
+        }
 
         else if(password.length() >= minPasswordLength1){
             this.username9 = username ;
             this.password9 = password ;
-            System.out.println( " created successful");
+            System.out.println( "created successful");
        }
         else{
             this.password9 = "invalid" ;
@@ -69,13 +72,11 @@ class User{
     }
     
     public void setPassword(String newPassword){
-        if(newPassword == null || newPassword.isEmpty()){
-            this.password9 = "invalid" ;
+        if(newPassword.isEmpty()){
             System.out.println("Update failed.");
-
         }
 
-        else if(newPassword.length() >= minPasswordLength1){
+         else if(newPassword.length() >= minPasswordLength1){
             this.password9 = newPassword ;
             System.out.println("Update successful.");
         }
@@ -88,6 +89,7 @@ class User{
 
 
     public static void setMinLength(int length){
+       
         if (length < 4){
             System.out.println("Invalid length");
         }
