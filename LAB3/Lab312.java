@@ -3,12 +3,16 @@ import java.util.Scanner;
 public class Lab312 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);
+
         System.out.print("Enter name :");
         String name = input1.nextLine();
+
         System.out.print("Enter monthly salary :");
         double salary = input1.nextDouble();
+
         System.out.print("Enter taxRate :");
         double taxRate = input1.nextDouble();
+        
         System.out.print("Enter raise amount :");
         double raiseAmount = input1.nextDouble();
 
