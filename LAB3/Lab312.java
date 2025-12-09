@@ -19,7 +19,7 @@ public class Lab312 {
         Employee101 emp = new Employee101 (name, salary);
         System.out.println("Tax (before): " + emp.calculateTax(taxRate));
         emp.giveRaise(raiseAmount);
-        System.out.println("Tax (after): "+String.format("%.2f", emp.calculateTax(taxRate)));
+        System.out.println("Tax (after): "+ String.format("%.1f", emp.calculateTax(taxRate)));
 
         input1.close();
     }
