@@ -12,14 +12,15 @@ public class Lab312 {
 
         System.out.print("Enter taxRate :");
         double taxRate = input1.nextDouble();
-        
+
         System.out.print("Enter raise amount :");
         double raiseAmount = input1.nextDouble();
 
         Employee101 emp = new Employee101 (name, salary);
         System.out.println("Tax (before): " + emp.calculateTax(taxRate));
         emp.giveRaise(raiseAmount);
-        System.out.println("Annual Salary (after): " + emp.calculateTax(taxRate ));
+        System.out.println("Tax (after): "+String.format("%.2f", emp.calculateTax(taxRate)));
+
         input1.close();
     }
 }
@@ -51,6 +52,10 @@ class Employee101{
     }
     private double getAnnualSalary(){
         return monthlySalary * 12;
+
+    
+
+
     }
     public double calculateTax(double taxRate){
         return getAnnualSalary() * taxRate;
