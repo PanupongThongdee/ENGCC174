@@ -21,6 +21,7 @@ public class Lab313 {
                     LicenseManager.displayStatus();
                 }
             }
+            data9.close();
          }
     }
     
