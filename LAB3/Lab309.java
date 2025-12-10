@@ -1,4 +1,4 @@
-package ENGCC174.LAB3;
+
 import java.util.Scanner ;
 public class Lab309 {
     public static void main(String[] java){
