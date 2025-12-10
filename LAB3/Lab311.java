@@ -9,6 +9,7 @@ public class Lab311 {
             System.out.print("Enter operation type (SET_URL/SET_MAX):");
             String operation = input.next();
             SystemConfig config = SystemConfig.getInstance();
+            
             if(operation.equalsIgnoreCase("SET_URL")){
                 System.out.print("Enter server URL:");
                 String url = input.next();
@@ -34,7 +35,7 @@ class SystemConfig{
     private String serverUrl;
     private int maxConnections;
 
-    private SystemConfig(){
+      private SystemConfig(){
         serverUrl = "default.server.com";
         maxConnections = 10;
     }
