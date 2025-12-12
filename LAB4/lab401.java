@@ -1,6 +1,7 @@
 package LAB4;
 import java.util.Scanner;
 public class lab401 {
+    
     public static void main(String[] java){
         Scanner data = new Scanner(System.in);
         Book process = null ;
@@ -52,4 +53,6 @@ class Book {
         
     }
 }
+
+
 
