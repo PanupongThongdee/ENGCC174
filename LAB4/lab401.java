@@ -27,6 +27,9 @@ public class lab401 {
             process.display();
 
         }
+        else{
+            System.out.println("Please enter the number 1 or 2 : ");
+        }
         
         data.close();
         process = null;
